@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suara Masyarakat - ImpactZone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="page-content">
+
+    <nav class="navbar">
+        <div class="logo">ImpactZone</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dampak.html">Dampak</a></li>
+            <li><a href="simulasi.html">Simulasi</a></li>
+            <li><a href="kalkulator.html">Kalkulator</a></li>
+            <li><a href="perbandingan.html">Perbandingan</a></li>
+            <li><a href="suara.html">Suara Masyarakat</a></li>
+            <li><a href="solusi.html">Solusi</a></li>
+        </ul>
+    </nav>
+
+    <section class="suara" id="suara">
+        <h2>Suara Masyarakat</h2>
+        <p>Apakah Anda setuju dengan aktivitas pertambangan di Belitung?</p>
+        <div class="polling">
+            <button class="btn-poll" id="poll-ya">Ya</button>
+            <button class="btn-poll" id="poll-tidak">Tidak</button>
+        </div>
+        <label for="opini">Opini Anda:</label>
+        <textarea id="opini" rows="3" placeholder="Tulis pendapat Anda..."></textarea>
+        <button class="btn-primary" id="kirim-opini">Kirim</button>
+        <div id="pesan-suara"></div>
+    </section>
+
+    </div> <!-- end page-content -->
+    <footer>
+        <p>&copy; 2026 Belitung Lestari. Edukasi untuk masa depan.</p>
+    </footer>
+
+    <!-- cache-busting query string to ensure latest JS loads -->
+    <script src="script.js?v=1.1"></script>
+</body>
+</html>
